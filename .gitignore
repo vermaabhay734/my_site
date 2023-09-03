@@ -1,0 +1,77 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
+
+# Virtual Environment
+venv/
+env/
+
+# Pipenv
+.Python
+pipfile.lock
+pipfile.pip
+Pipfile
+
+# IDE/Text Editor
+.vscode/
+.idea/
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# Media files
+media/
+
+# Compiled Python files
+__pycache__/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Environment variables
+.env
+
+# Django Secret Key
+secret_key.txt
+
+# Ignore local settings
+local_settings.py
+
+# Ignore database configuration
+db.sqlite3
+
+# Ignore migration files
+/migrations/
+
+# Ignore staticfiles
+/static/
+
+# Ignore user-uploaded media
+/media/
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore configuration files
+*.cfg
+*.conf
+
+# Ignore all .pyc files
+__pycache__/
+*.pyc
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore coverage reports
+htmlcov/
+.coverage
