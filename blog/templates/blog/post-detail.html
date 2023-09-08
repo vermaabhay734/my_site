@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+  This Post Title
+{% endblock title %}
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static 'blog/post-detail.css' %}">
+{% endblock css_files %}
+
+{% block content %}
+  <section id="summary">
+    <h2>Post Title</h2>
+    <article>
+        <img src="{% static 'blog/images/mountains.jpg' %}" alt="Post Title">
+        <address>By Abhay</address>
+        <div>
+            Last Updated on <time>Sept 5th</time>
+        </div>
+    </article>
+  </section>
+
+  <main>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eius blanditiis, magnam minus fugiat autem aut dolor optio id tempore iusto assumenda cumque rem expedita accusantium dolore eum earum repellendus!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eius blanditiis, magnam minus fugiat autem aut dolor optio id tempore iusto assumenda cumque rem expedita accusantium dolore eum earum repellendus!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eius blanditiis, magnam minus fugiat autem aut dolor optio id tempore iusto assumenda cumque rem expedita accusantium dolore eum earum repellendus!
+    </p>
+  </main>
+{% endblock content %}
