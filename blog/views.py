@@ -68,10 +68,14 @@ posts = [
     }
 ]
 
+def get_date(post):
+    return post['date']
 
 # Create your views here.
 
 def starting_page(request):
+    sorted_posts = posts.sort(key=get_date)
+    latest_posts = sorted_posts[-3:]
     return render(request, "blog/index.html")
 
 
